@@ -34,7 +34,7 @@ var actorSchema = new Schema({
     },
     photo:{
         type: Buffer,
-        contentTyoe: String
+        contentType: String
     },
     role: {
         type: String,
