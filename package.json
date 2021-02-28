@@ -1,0 +1,22 @@
+{
+  "name": "acme-market",
+  "version": "1.0.0",
+  "description": "Project example for Arquitectura para Software como servicio subject",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolagj/ACME-MARKET.git"
+  },
+  "author": "Lola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolagj/ACME-MARKET/issues"
+  },
+  "homepage": "https://github.com/lolagj/ACME-MARKET#readme",
+  "dependencies": {
+    "mongoose": "^5.11.18"
+  }
+}
