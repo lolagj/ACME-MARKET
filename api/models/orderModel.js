@@ -52,7 +52,7 @@ var OrderSchema = new Schema({
         type: Date
     },
     cancellationMoment:{
-        type:date
+        type:Date
     },
     customer:{
         type: Schema.Types.ObjectId,
