@@ -30,7 +30,7 @@ var actorSchema = new Schema({
     },
     phone:{
         type: String,
-        required: 'Kindly enter the actor prefered Language',
+        required: 'Kindly enter the actor phone',
     },
     photo:{
         type: Buffer,
