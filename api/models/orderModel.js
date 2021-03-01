@@ -29,7 +29,7 @@ var OrderedItemSchema = new Schema({
 
 var OrderSchema = new Schema({
     ticker:{
-        type: toString
+        type: String
     },
     consumerName:{
         type: String,
