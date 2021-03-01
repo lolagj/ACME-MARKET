@@ -48,7 +48,7 @@ var CommentSchema = new Schema({
     }
 
 
-}, {strict = false});
+}, {strict : false});
 
 var ItemSchema= new Schema ({
     sku: {
