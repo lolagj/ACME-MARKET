@@ -29,7 +29,7 @@ var OrderedItemSchema = new Schema({
 
 var OrderSchema = new Schema({
     ticker:{
-        type: toString
+        type: String
     },
     consumerName:{
         type: String,
@@ -52,7 +52,7 @@ var OrderSchema = new Schema({
         type: Date
     },
     cancellationMoment:{
-        type:date
+        type:Date
     },
     customer:{
         type: Schema.Types.ObjectId,

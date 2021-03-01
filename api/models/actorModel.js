@@ -54,4 +54,4 @@ var actorSchema = new Schema({
 }, {stric: false})
 
 
-module.exports = mongoose.model('Actors', ActorSchema);
+module.exports = mongoose.model('Actors', actorSchema);
