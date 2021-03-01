@@ -94,4 +94,4 @@ var ItemSchema= new Schema ({
 
 module.exports = mongoose.model('Items', ItemSchema);
 module.exports = mongoose.model('Categories', CategorySchema);
-module.exports = mongoose.model('Comments', CommentSchema);
+//module.exports = mongoose.model('Comments', CommentSchema);
